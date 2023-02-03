@@ -7,7 +7,7 @@ mongoose.set('strictQuery', false);
 const app = express();
 const PORT = 3001;
 
-const routes = require("../Backend/routes/routes");
+const routes = require("./routes/routes");
 const connectionOptions ={ useUnifiedTopology: true,
     useNewUrlParser: true, useFindAndModify: false};
 
